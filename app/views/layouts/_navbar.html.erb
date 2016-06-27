@@ -1,0 +1,49 @@
+<header class="navbar">
+  <div class="container-fluid hidden-xs">
+    <div class="row">
+      <div class="col-sm-12-center ">
+        <div class = "collapse navbar-collapse">
+          <ul class=" nav-justified" id="myNavbar">
+            <li><%= link_to "Home",   '#' %></li>
+            <li><%= link_to "Help",   '#' %></li>
+            <li> <%= link_to "About", '#' %></li>
+            <li><%= link_to "Contact", '#' %></li>
+            <li><%= button_to "Log in", '#' %></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="container-fluid">
+      <div class="navbar-inner">
+        <div class="col-xs-3 visible-xs">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div class="col-xs-1 hidden-xs col-sm-1">
+          <%= link_to image_tag("ddgray.png", alt: "dezi logo", width: 100), '#',
+                      class: "img-responsive hidden-md hidden-sm hidden-xs" %>
+          <%= link_to image_tag("ddgray.png", alt: "dezi logo", width: 65), '#',
+                      class: "img-responsive hidden-sm hidden-lg hidden-xs" %>
+        </div>
+
+        <div class="col-xs-9 col-sm-10  col-md-10 jumbotron">
+          |------ BANNER IMG SPACE -------|
+        </div>
+      </div>
+      <div class="col-sm-1 col-md-1 hidden-xs">
+        side text
+      </div>
+    </div>
+  </div>
+
+</header>
+

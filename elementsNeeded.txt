@@ -1,0 +1,16 @@
+things we need:
+
+title for main page
+
+(can render sub page title and main title but what is main title)
+
+main title :  Dezo: Delegated Driver, Designate a Driver Don't drive Drunk
+
+home page tages
+want to have h1-h6 wherever possible
+
+HERO UNIT 
+      <h1> Dezo </h1>
+      <h2> Delegated Driver </h2>
+      <h3> Never Drive Drunk AGAIN</h3>
+
