@@ -230,3 +230,14 @@ Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db6
 
 
 Started GET "/assets/mich_home-435e2b1ac2c288a5b1bdb2faa244b81bd7b7752df7e206a87868fbf4d381b8a8.jpg" for ::1 at 2016-06-27 19:27:42 -0400
+
+
+Started GET "/" for ::1 at 2016-06-27 19:43:28 -0400
+Processing by DPagesController#home as HTML
+  Rendered d_pages/home.html.erb within layouts/application (3955.9ms)
+  Rendered layouts/_head.html.erb (182.4ms)
+  Rendered layouts/_navbar.html.erb (1.0ms)
+Completed 200 OK in 4169ms (Views: 4159.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-06-27 19:43:32 -0400
