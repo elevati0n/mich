@@ -19,7 +19,7 @@
 #secrets and assets 
 /config/secrets.yml
 /public/assets/*
-
+/vendor/*
 
 # Compiled source #
 ###################
