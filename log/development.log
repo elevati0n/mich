@@ -123,3 +123,110 @@ Started GET "/assets/d_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 19:12:19 -0400
+
+
+Started GET "/" for ::1 at 2016-06-27 19:27:10 -0400
+Processing by DPagesController#home as HTML
+  Rendered d_pages/home.html.erb within layouts/application (376.3ms)
+  Rendered layouts/_head.html.erb (109.7ms)
+  Rendered layouts/_navbar.html.erb (1.7ms)
+Completed 200 OK in 517ms (Views: 507.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/mich_home-435e2b1ac2c288a5b1bdb2faa244b81bd7b7752df7e206a87868fbf4d381b8a8.jpg" for ::1 at 2016-06-27 19:27:11 -0400
+
+
+Started GET "/" for ::1 at 2016-06-27 19:27:28 -0400
+Processing by DPagesController#home as HTML
+  Rendered d_pages/home.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_head.html.erb (19.8ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/d_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 19:27:28 -0400
+
+
+Started GET "/assets/d_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 19:27:28 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 19:27:28 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-27 19:27:28 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 19:27:28 -0400
+
+
+Started GET "/assets/application.self-3bb34414651dec87f35c8fd06453220e3b0cee66c5e3595471bba8435a650760.css?body=1" for ::1 at 2016-06-27 19:27:28 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 19:27:28 -0400
+
+
+Started GET "/assets/mich_home-435e2b1ac2c288a5b1bdb2faa244b81bd7b7752df7e206a87868fbf4d381b8a8.jpg" for ::1 at 2016-06-27 19:27:28 -0400
+
+
+Started GET "/" for ::1 at 2016-06-27 19:27:31 -0400
+Processing by DPagesController#home as HTML
+  Rendered d_pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_head.html.erb (32.5ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 43ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/d_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 19:27:31 -0400
+
+
+Started GET "/assets/application.self-3bb34414651dec87f35c8fd06453220e3b0cee66c5e3595471bba8435a650760.css?body=1" for ::1 at 2016-06-27 19:27:31 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 19:27:31 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-27 19:27:31 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 19:27:31 -0400
+
+
+Started GET "/assets/d_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 19:27:31 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 19:27:31 -0400
+
+
+Started GET "/assets/mich_home-435e2b1ac2c288a5b1bdb2faa244b81bd7b7752df7e206a87868fbf4d381b8a8.jpg" for ::1 at 2016-06-27 19:27:31 -0400
+
+
+Started GET "/" for ::1 at 2016-06-27 19:27:42 -0400
+Processing by DPagesController#home as HTML
+  Rendered d_pages/home.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_head.html.erb (36.3ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 55ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/d_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 19:27:42 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 19:27:42 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-27 19:27:42 -0400
+
+
+Started GET "/assets/application.self-3bb34414651dec87f35c8fd06453220e3b0cee66c5e3595471bba8435a650760.css?body=1" for ::1 at 2016-06-27 19:27:42 -0400
+
+
+Started GET "/assets/d_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 19:27:42 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 19:27:42 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 19:27:42 -0400
+
+
+Started GET "/assets/mich_home-435e2b1ac2c288a5b1bdb2faa244b81bd7b7752df7e206a87868fbf4d381b8a8.jpg" for ::1 at 2016-06-27 19:27:42 -0400
