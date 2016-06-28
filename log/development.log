@@ -3830,3 +3830,11 @@ Started GET "/assets/d_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde
 
 
 Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-06-28 00:14:27 -0400
+
+
+Started GET "/" for ::1 at 2016-06-28 00:22:28 -0400
+Processing by DPagesController#home as HTML
+  Rendered d_pages/home.html.erb within layouts/application (298.0ms)
+  Rendered layouts/_head.html.erb (82.8ms)
+  Rendered layouts/_navbar.html.erb (0.9ms)
+Completed 200 OK in 410ms (Views: 400.4ms | ActiveRecord: 0.0ms)
