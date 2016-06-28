@@ -1,37 +1,69 @@
-<div class="container-fluid">
-  <div class="hero">
-    <div class="center-block text-center">
-
-      <div class="row">
-        <!--colums must add up -->
-        <!--<div class="col-md-3"></div>-->
-        <!--<div class="col-md-6 center">-->
-        <div class="span12 centered-text">
-          <%= link_to image_tag("mich_home.jpg", alt: "mich logo", width: 700), '#',
-                      class: "img-responsive hidden-xs hidden-sm" %>
-          <%= link_to image_tag("mich_home.jpg", alt: "mich logo", width: 500), '#',
-                      class: "img-responsive hidden-md hidden-lg hidden-xs" %>
-          <%= link_to image_tag("mich_home.jpg", alt: "mich logo", width: 300), '#',
-                      class: "img-responsive hidden-md hidden-lg hidden-sm" %>
-
-          <br>
-        </div>
-      </div>
-    </div>
+<div class="container-fluid hero">
+  <div class="center-block text-center jumbotron bordered" rel ="mhero">
+    <div class="container-fluid">
     <div class="row">
-      <div class="col-md-4"></div>
-      <div class="span12">
-        <div class="col-md-4">
-          <a href="#" class="btn btn-block btn-primary">See My Portfolio!</a>
-          <a href="#" class="btn btn-block btn-primary">Booking Today!</a>
-          <a href="#" class="btn btn-block btn-primary">Register for VIP Access!</a>
-        </div>
+    <!--colums must add up -->
+      <!--<div class="col-md-3"></div>-->
+      <div class="col-xs12 text-center">
+        <!--lg-->
+          <%= link_to image_tag("mich_home.jpg", alt: "mich logo", width: 850), '#',
+                  class: "img-responsive img-circle hidden-xs hidden-sm hidden-md",
+                  rel: "bigheropic" %>
+          <!--medium-->
+          <%= link_to image_tag("mich_home.jpg", alt: "mich logo", width: 650), '#',
+                    class: "img-responsive img-circle hidden-xs hidden-sm hidden-lg",
+                    rel: "bigheropic" %>
+          <!--small-->
+          <%= link_to image_tag("mich_home.jpg", alt: "mich logo", width: 550), '#',
+                    class: "img-responsive hidden-md hidden-lg hidden-xs", rel: "buttonlist" %>
+          <!--extra small-->
+          <%= link_to image_tag("mich_home.jpg", alt: "mich logo", width: 332), '#',
+                    class: "img-responsive hidden-md hidden-lg hidden-sm" %>
+          <br>
       </div>
-      <div class="col-md-4"></div>
     </div>
-  </div>
+
+    <div class="container-fluid">
+      <div class="row well-lg" >
+        <div class="container-fluid">
+        <div class="col-lg-4 hidden-md"></div>
+          <div class="container-fluid">
+            <div class="row" >
+            <ul class="nav-stacked list-unstyled">
+
+            <li class="nav-bar-btn buttonlist ">
+              <div class="col-lg-3 col-md-3">
+                <a href="#" class="btn-lg btn-primary btn-block">See My Portfolio!</a>
+              </div>
+            </li>
+
+            <li class="divider-horizontal hidden-md hidden-lg"></li>
+
+            <li class="nav-bar-btn buttonlist">
+              <div class="col-lg-3 col-md-3">
+                <a href="#" class="btn-lg btn-primary btn-block">Booking Today! </a>
+              </div>
+            </li>
+
+            <li class="divider-horizontal hidden-md hidden-lg "></li>
+
+            <li class="nav-bar-btn buttonlist">
+              <div class="col-lg-3 col-md-3">
+                <a href="#" class="btn-lg btn-primary btn-block">Poems and Art </a>
+              </div>
+            </li>
+
+            <li class="divider-horizontal hidden-md hidden-lg "></li>
+
+            <li class="nav-bar-btn buttonlist">
+              <div class="col-lg-3 col-md-3">
+                <a href="#" class="btn-lg btn-primary btn-block">VIP Access Signup!</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 hidden-md"></div>
+      </div>
+    </div>
 </div>
-
-
-
 
